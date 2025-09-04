@@ -1,0 +1,14 @@
+/* Css styles for tab */
+@media (max-width: 1023px) and (min-width: 768px) {}
+
+/* Css styles for mobile */
+@media (max-width: 767px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        width: 30px;
+    }
+}

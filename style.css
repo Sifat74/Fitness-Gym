@@ -1,0 +1,76 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Satisfy&display=swap');
+/*   font-family: "Satisfy", cursive; */
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --accent: #E6533C;
+    --text: rgba(255, 255, 255, 0.5);
+    --gray: #222222;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--black);
+    font-family: "Inter", sans-serif;
+}
+
+.section {
+    width: 100%;
+}
+
+.container {
+    max-width: 1040px;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+/* Header css start*/
+.header-content {
+    padding-top: 40px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content h2 {
+    color: var(--accent);
+    font-size: 36px;
+    line-height: 1.2em;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    gap: 12px;
+    padding: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 40px;
+}
+
+.menu-item {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2em;
+    padding: 8px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.menu-item:first-child {
+    background-color: var(--accent);
+}
+
+.menu-icon {
+    display: none;
+}
+
+/* Header css end*/
