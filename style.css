@@ -18,6 +18,7 @@
 body {
     background-color: var(--black);
     font-family: "Inter", sans-serif;
+    color: var(--white);
 }
 
 .section {
@@ -30,8 +31,32 @@ body {
     padding: 0px 20px;
 }
 
-/* Header css start*/
-.header-content {
+.cursive-font {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 78px;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 18px;
+    color: var(--text);
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+/* Global styles end  */
+
+/* nav css start*/
+nav {
+    z-index: 100;
+}
+
+.nav-content {
     padding-top: 40px;
     padding-bottom: 16px;
     display: flex;
@@ -39,7 +64,7 @@ body {
     align-items: center;
 }
 
-.header-content h2 {
+.nav-content h2 {
     color: var(--accent);
     font-size: 36px;
     line-height: 1.2em;
@@ -71,6 +96,32 @@ body {
 
 .menu-icon {
     display: none;
+}
+
+/* nav css end*/
+
+
+/* Header css start*/
+header {
+    min-height: 715px;
+    margin-top: -104px;
+    background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 1) 100%);
+    padding-top: 200px;
+}
+
+header .container {
+    display: flex;
+    gap: 20px;
+}
+
+.header-content {
+    width: 50%;
+}
+
+.header-content:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
 }
 
 /* Header css end*/
