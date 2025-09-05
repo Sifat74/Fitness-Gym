@@ -1,0 +1,79 @@
+/* nav css start*/
+nav {
+    z-index: 100;
+}
+
+.nav-content {
+    padding-top: 40px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-content h2 {
+    color: var(--accent);
+    font-size: 36px;
+    line-height: 1.2em;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    gap: 12px;
+    padding: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 40px;
+}
+
+.menu-item {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2em;
+    padding: 8px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.menu-item:first-child {
+    background-color: var(--accent);
+}
+
+.menu-icon {
+    display: none;
+}
+
+/* nav css end*/
+
+
+/* Header css start*/
+header {
+    min-height: 715px;
+    margin-top: -104px;
+    background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 1) 100%);
+}
+
+header .container {
+    display: flex;
+    gap: 20px;
+    padding-top: 200px;
+}
+
+.header-content {
+    width: 50%;
+}
+
+.header-content:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.hero-btn-wrapper {
+    display: flex;
+    gap: 16px;
+}
+
+/* Header css end*/

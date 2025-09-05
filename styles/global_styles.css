@@ -1,0 +1,73 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Satisfy&display=swap');
+/*   font-family: "Satisfy", cursive; */
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --accent: #E6533C;
+    --text: rgba(255, 255, 255, 0.5);
+    --gray: #222222;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--black);
+    font-family: "Inter", sans-serif;
+    color: var(--white);
+}
+
+.section {
+    width: 100%;
+}
+
+.container {
+    max-width: 1040px;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+.cursive-font {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+}
+
+.site-btn {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3em;
+    color: var(--white);
+    background: transparent;
+    border: none;
+    padding: 16px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.filled-btn {
+    background-color: var(--accent);
+    border: 1px solid var(--accent);
+}
+
+.outline-btn {
+    border: 1px solid var(--white);
+}
+
+h1 {
+    font-size: 78px;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 18px;
+    color: var(--text);
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+/* Global styles end  */
