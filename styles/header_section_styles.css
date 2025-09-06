@@ -57,7 +57,7 @@ header {
 
 header .container {
     display: flex;
-    gap: 20px;
+    gap: 40px;
     padding-top: 200px;
 }
 
@@ -78,8 +78,47 @@ header .container {
 
 .header-content:nth-child(2) {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: end;
+    position: relative;
+}
+
+.transparent-box {
+    background: rgba(48, 48, 48, 0.43);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.tp-box-1 {
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+
+.tp-box-1 div {
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.tp-box-2 {
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+    display: flex;
+    gap: 10px;
+}
+
+.tp-box-2 img {
+    width: 40px;
+}
+
+.tp2-content div {
+    font-size: 24px;
+    font-weight: 800;
 }
 
 /* Header css end*/

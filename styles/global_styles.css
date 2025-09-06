@@ -57,6 +57,13 @@ body {
     border: 1px solid var(--white);
 }
 
+p {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    font-weight: 300;
+}
+
 h1 {
     font-size: 78px;
     line-height: 1.2em;
