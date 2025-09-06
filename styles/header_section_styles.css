@@ -74,6 +74,7 @@ header .container {
 .hero-btn-wrapper {
     display: flex;
     gap: 16px;
+    flex-wrap: wrap;
 }
 
 .header-content:nth-child(2) {

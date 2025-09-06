@@ -8,10 +8,37 @@
     .header-content {
         width: 100%;
     }
+
+    .header-content:first-child {
+        max-width: 580px;
+    }
+
+    .header-content:nth-child(2) {
+        max-width: 500px;
+        margin: auto;
+    }
 }
 
 /* Css styles for mobile */
 @media (max-width: 767px) {
+    h1 {
+        font-size: 36px;
+        max-width: 200px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    .site-btn {
+        font-size: 14px;
+        padding: 12px 36px;
+    }
+
+    .header-content:first-child h5 {
+        max-width: 270px;
+    }
+
     .menu {
         display: none;
     }
@@ -20,4 +47,34 @@
         display: block;
         width: 30px;
     }
+
+    .tp-box-1 div {
+        font-size: 30px;
+    }
+
+    .tp-box-2 img {
+        width: 30px;
+    }
+
+    .tp2-content div {
+        font-size: 18px;
+    }
+
+    .header-content:nth-child(2) {
+        max-width: 400px;
+    }
+
+    .transparent-box {
+        padding: 16px;
+    }
+
+    .tp-box-1 {
+        right: 0;
+        top: 0px;
+    }
+
+    .tp-box-2 {
+        bottom: 150px;
+    }
+
 }
