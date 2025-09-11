@@ -6,3 +6,33 @@
     margin: auto;
     padding: 0px 20px;
 }
+
+.section-4-bottom {
+    background-color: var(--gray);
+    padding: 40px 0px;
+}
+
+.section-4 .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bmi-chart-wrapper {
+    width: 30%;
+}
+
+.bmi-form-wrapper {
+    width: 54%;
+}
+
+.bmi-chart-wrapper h4 {
+    margin-bottom: 48px;
+}
+
+.bmi-form-wrapper h4 {
+    margin-bottom: 14px;
+}
+
+.bmi-form-wrapper p {
+    margin-bottom: 34px;
+}

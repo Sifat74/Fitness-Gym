@@ -77,6 +77,12 @@ h2 {
     font-weight: 800;
 }
 
+h4 {
+    font-size: 28px;
+    line-height: 1.2em;
+    font-weight: 800;
+}
+
 h5 {
     font-size: 18px;
     color: var(--text);
@@ -89,6 +95,32 @@ h5 {
     flex-direction: column;
     gap: 14px;
     max-width: 620px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 12px 20px;
+    text-align: center;
+    width: 50%;
+    text-align: left;
+}
+
+th {
+    font-size: 16px;
+    line-height: 1.2em;
+    font-weight: 500;
+}
+
+td {
+    font-size: 14px;
+    line-height: 1.2em;
+    font-weight: 300;
+    color: var(--text);
 }
 
 /* Global styles end  */
