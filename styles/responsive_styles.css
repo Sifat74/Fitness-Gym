@@ -27,6 +27,15 @@
         max-width: 600px;
         margin: auto;
     }
+
+    .section-3-content {
+        gap: 68px;
+    }
+
+    .section-3-left,
+    .section-3-right {
+        width: 50%;
+    }
 }
 
 /* Css styles for mobile */
@@ -99,6 +108,23 @@
         grid-template-columns: repeat(1, 1fr);
         max-width: 250px;
         margin: auto;
+    }
+
+    .section-3-content {
+        flex-direction: column;
+        padding: 30px;
+        gap: 30px;
+    }
+
+    .section-3-left,
+    .section-3-right {
+        width: 100% !important;
+    }
+
+    .section-3-right {
+        height: 200px;
+        background-size: cover;
+        background-position: center;
     }
 
 }
